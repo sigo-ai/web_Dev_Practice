@@ -1,0 +1,78 @@
+
+@media(min-width: 451px){
+    #link {
+        color: rgb(255, 132, 0);
+    }
+    
+    #random {
+        color: rgb(179, 121, 28)
+    }
+    
+    .card {
+        height: 550px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 30px;
+        text-align: start;
+        padding-left: 10px;
+    }
+    
+    .card img {
+        height: 45%;
+        width: 97%;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding-top: 10px;
+    }
+    
+    #pets {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly ;
+    }
+    
+    h4{
+        text-align: right;
+        color: teal;
+    }
+    
+}
+@media(max-width: 450px){
+    #link {
+        color: rgb(255, 132, 0);
+    }
+    
+    #random {
+        color: rgb(179, 121, 28)
+    }
+    
+    .card {
+        height: 500px;
+        width: 350px;
+        border: 2px solid black;
+        border-radius: 30px;
+        text-align: start;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card img {
+        height: 40%;
+        width: 97%;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding-top: 10px;
+    }
+    
+    #pets {
+        display: flex;
+        /* flex-direction: column;
+        justify-content: space-around; */
+        flex-wrap: wrap;
+    }
+    
+    h4{
+        text-align: right;
+        color: teal;
+    }
+}
